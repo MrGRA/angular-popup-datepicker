@@ -1,19 +1,8 @@
 {
-  "name": "angular-datepicker",
-  "version": "1.0.3",
-  "title": "angular-datepicker",
-  "description": "The mobile-friendly, responsive, and lightweight Angular date & time input picker.",
-  "author": {
-    "name": "Amsul",
-    "email": "reach@amsul.ca",
-    "url": "http://amsul.ca"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://amsul.ca/MIT"
-    }
-  ],
+  "name": "angular-popup-datepicker",
+  "version": "1.0.0",
+  "title": "angular-popup-datepicker",
+  "description": "The mobile-friendly, responsive, and lightweight Angular date & time input picker, no JQuey.",
   "keywords": [
     "date",
     "time",
@@ -28,21 +17,18 @@
   "main": "src/picker.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alongubkin/angular-datepicker.git"
+    "url": "https://github.com/MrGRA/angular-datepicker"
   },
   "dependencies": {
    },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-contrib-less": "~0.9.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-uglify": "~0.3.2"
-  },
-  "scripts": {
-    "test": "grunt travis --verbose"
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-copy": "~0.8.2",
+    "grunt-contrib-less": "~1.1.0",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-uglify": "~0.11.0"
   }
 }

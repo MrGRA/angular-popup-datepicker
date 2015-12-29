@@ -1,6 +1,5 @@
-// mostly taken from http://www.codinginsight.com/angularjs-and-pickadate/
 
-angular.module('angular-datepicker', [])
+angular.module('angular-popup-datepicker', [])
     .directive('pickADate', function() {    
         return {        
             restrict: "A",
@@ -50,21 +49,6 @@ angular.module('angular-datepicker', [])
                     if (typeof userOnClose === 'function') {
                         userOnClose.apply(this, arguments);
                     }
-
-                    if (typeof cordova === 'undefined' || !cordova.plugins || !cordova.plugins.Keyboard) {
-                        return;
-                    }
-
-                    var keyboardShowCallback = function() {
-                        cordova.plugins.Keyboard.close();
-                        window.removeEventListener('native.keyboardshow', this);
-                    };
-
-                    window.addEventListener('native.keyboardshow', keyboardShowCallback);
-
-                    setTimeout(function() {
-                        window.removeEventListener('native.keyboardshow', keyboardShowCallback);
-                    }, 500);
                 }
 
                 element.pickadate(angular.extend(options, {
@@ -124,21 +108,6 @@ angular.module('angular-datepicker', [])
                     if (typeof userOnClose === 'function') {
                         userOnClose.apply(this, arguments);
                     }
-
-                    if (typeof cordova === 'undefined' || !cordova.plugins || !cordova.plugins.Keyboard) {
-                        return;
-                    }
-
-                    var keyboardShowCallback = function() {
-                        cordova.plugins.Keyboard.close();
-                        window.removeEventListener('native.keyboardshow', this);
-                    };
-
-                    window.addEventListener('native.keyboardshow', keyboardShowCallback);
-
-                    setTimeout(function() {
-                        window.removeEventListener('native.keyboardshow', keyboardShowCallback);
-                    }, 500);
                 }
 
                 element.pickatime(angular.extend(options, {                
