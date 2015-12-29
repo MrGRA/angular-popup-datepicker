@@ -93,7 +93,7 @@ angular.module('angular-popup-datepicker', [])
                                 scope.pickATime = null;                            
                                 return;                        
                             }                        
-                            if (!scope.pickATime || typeof scope.pickATime === 'string')                             scope.pickATime = new Date();
+                            if (!scope.pickATime || typeof scope.pickATime === 'string') scope.pickATime = new Date();
                             scope.pickATime.setHours(select.hour);                        
                             scope.pickATime.setMinutes(select.mins);                        
                             scope.pickATime.setSeconds(0);                        
