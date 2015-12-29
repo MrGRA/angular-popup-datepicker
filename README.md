@@ -8,20 +8,20 @@ This is basically a [pickadate.js](https://github.com/amsul/pickadate.js) fork t
 
 ### Bower
 
-`bower install angular-native-picker`
+`bower install angular-popup-datepicker`
 
 ### Usage
 
-Include `build/angular-datepicker.js` in your application:
+Include `build/angular-popup-datepicker.js` in your application:
 
 ```HTML
-<script src="angular-datepicker.js"></script>
+<script src="angular-popup-datepicker.js"></script>
 ```
     
-Add the module `angular-datepicker` as a dependency to your app module:
+Add the module `angular-popup-datepicker` as a dependency to your app module:
 
 ```JavaScript
-var myapp = angular.module('myapp', ['angular-datepicker']);
+var myapp = angular.module('myapp', ['angular-popup-datepicker']);
 ```
     
 To create a date or time picker, add the `pick-a-date` or `pick-a-time` directive to your input tag:
