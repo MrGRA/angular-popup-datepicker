@@ -1,6 +1,6 @@
 {
   "name": "angular-popup-datepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": [
     "./build/themes/default.css",
     "./build/themes/default.date.css",
