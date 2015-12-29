@@ -5,7 +5,7 @@
     "./build/themes/default.css",
     "./build/themes/default.date.css",
     "./build/themes/default.time.css",
-    "./build/angular-datepicker.js"
+    "./build/angular-popup-datepicker.js"
   ],
   "ignore": [
     "CONTRIBUTING.md",
