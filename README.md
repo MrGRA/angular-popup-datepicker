@@ -1,4 +1,4 @@
-# angular-datepicker
+# angular-popup-datepicker
 
 The mobile-friendly, responsive, and lightweight Angular.js date &amp; time input picker. Perfect for Ionic apps!
 
@@ -60,4 +60,4 @@ For a full list of available options please refer to the pickadate documentation
 for [datepicker options](http://amsul.ca/pickadate.js/date.htm) and 
 [timepicker options](http://amsul.ca/pickadate.js/time.htm).
 
-```Based on https://github.com/alongubkin/angular-datepicker
+### Based on https://github.com/alongubkin/angular-datepicker, a big thanks to Alon Gubkin
