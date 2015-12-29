@@ -17,7 +17,7 @@
   "main": "src/picker.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrGRA/angular-datepicker"
+    "url": "https://github.com/MrGRA/angular-popup-datepicker"
   },
   "dependencies": {
    },
