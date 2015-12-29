@@ -60,4 +60,6 @@ For a full list of available options please refer to the pickadate documentation
 for [datepicker options](http://amsul.ca/pickadate.js/date.htm) and 
 [timepicker options](http://amsul.ca/pickadate.js/time.htm).
 
-### Based on https://github.com/alongubkin/angular-datepicker, a big thanks to Alon Gubkin
+### Thanks to:
+
+Based on https://github.com/alongubkin/angular-datepicker, a big thanks to Alon Gubkin
