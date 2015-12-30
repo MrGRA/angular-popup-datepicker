@@ -127,7 +127,7 @@ angular.module('angular-popup-datepicker', []).directive('pickADate', ['$parse',
       }
     };
   }]);
-  angular.module('pickadate').directive('pickATime', ['$parse', 'pickATime', function ($parse, pickATime) {
+  angular.module('angular-popup-datepicker').directive('pickATime', ['$parse', 'pickATime', function ($parse, pickATime) {
     return {
       restrict: 'A',
       require: '?ngModel',
